@@ -8,7 +8,7 @@ import shape_4 from "../../assets/svg/shape-4.svg";
 import banner_line from "../../assets/svg/banner-line.svg";
 
 import banner_img_bg from "../../assets/svg/banner-img-bg.svg";
-import banner_img from "../../assets/images/banner-img.png";
+import banner_img from "../../assets/images/banner-img.webp";
 
 import banner_aliment_icon_1 from "../../assets/svg/banner-aliment-icon-1.svg";
 import banner_aliment_icon_2 from "../../assets/images/banner-aliment-icon-2.png";
@@ -35,7 +35,7 @@ const index = ({ openSide, setOpenSide }) => {
         <p className="section-subtitle">Welcome To Satva Institute</p>
 
         <h1 className="main-heading">
-          Creteing a brighter future through
+          Creating a brighter future through{" "}
           <span className="underline-img">
             Education <img src={banner_line} alt="line" />
           </span>

@@ -4,12 +4,12 @@ import data from './data';
 
 const index = () => {
   return (
-    <section class="blog" id="blog">
-      <p class="section-subtitle">Our Blog</p>
+    <section className="blog" id="blog">
+      <p className="section-subtitle">Our Blog</p>
 
-      <h2 class="section-title">Latest Blog & News</h2>
+      <h2 className="section-title">Latest Blog & News</h2>
 
-      <div class="blog-grid">
+      <div className="blog-grid">
         {data.map((value) => {
           return <Card key={value.id} id={value.id} image={value.image} intro_paragraph={value.intro_paragraph} title={value.blog_title} cal_img={value.cal_img}  date={value.date} comment_img={value.comment_img} comment={value.comment} content={value.content}/>
         })}

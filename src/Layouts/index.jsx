@@ -18,7 +18,7 @@ function Index({ openSide, setOpenSide }) {
         (result) => {
           console.log(result.text);
           form.current.reset();
-          alert("Your Email Was Successfully Send");
+          alert("Thank you! Your message was sent successfully.");
         },
         (error) => {
           console.log(error.text);
@@ -112,7 +112,7 @@ function Index({ openSide, setOpenSide }) {
               <h2 className="py-4 section-title-for-contact-page">
                 Contact Us
               </h2>
-              <p className="section-text">Hey Contact With Us Right Now </p>
+              <p className="section-text">Have a question? Send us a message and we will get back to you.</p>
               <form className="space-y-8" ref={form} onSubmit={sendEmail}>
                 <div>
                   <label

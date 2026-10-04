@@ -1,6 +1,6 @@
 import React from "react";
 import HTMLReactParser from "html-react-parser";
-import mitul from "../../assets/images/mitul.jpg";
+import mitul from "../../assets/images/mitul.webp";
 const Card = ({ content, modal, setModal }) => {
   const toggleModal = () => {
     setModal(!modal);
@@ -12,18 +12,18 @@ const Card = ({ content, modal, setModal }) => {
         <div className="modal">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modal-content">
-            <div class="flex justify-between px-4 mx-auto max-w-screen-xl ">
-              <article class="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
-                <header class="mb-4 lg:mb-6 not-format">
-                  <h1 class="title">What Is Satva?</h1>
+            <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
+              <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
+                <header className="mb-4 lg:mb-6 not-format">
+                  <h1 className="title">What Is Satva?</h1>
                 </header>
-                <p class="lead">
+                <p className="lead">
                   Satva. Sanskrit: सत्त्व is a mode of existence. The word Satva
                   itself means true/spiritual essence, magnanimity, wisdom,
                   truth, and much more.
                 </p>
 
-                <img
+                <img loading="lazy" decoding="async"
                   src={mitul}
                   alt="image"
                   width="70%"
@@ -33,7 +33,7 @@ const Card = ({ content, modal, setModal }) => {
               </article>
             </div>
             {/* <div className="blog-image">
-            <img src={props.image} className="w-50" alt="blog banner" />
+            <img loading="lazy" decoding="async" src={props.image} className="w-50" alt="blog banner" />
 
             </div>
 

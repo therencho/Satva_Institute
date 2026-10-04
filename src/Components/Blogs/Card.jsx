@@ -12,7 +12,7 @@ const Card = (props) => {
     <>
       <div className="blog-card">
         <div className="blog-banner-box">
-          <img src={props.image}  onClick={toggleModal} alt="blog banner" />
+          <img loading="lazy" decoding="async" src={props.image}  onClick={toggleModal} alt="blog banner" />
         </div>
 
         <div className="blog-content">
@@ -22,13 +22,13 @@ const Card = (props) => {
 
           <div className="wrapper">
             <div className="blog-publish-date">
-              <img src={props.cal_img} alt="calendar icon" />
+              <img loading="lazy" decoding="async" src={props.cal_img} alt="calendar icon" />
 
               <a href="#">{props.date}</a>
             </div>
 
             {/* <div className="blog-comment">
-              <img src={props.comment_img} alt="comment icon" />
+              <img loading="lazy" decoding="async" src={props.comment_img} alt="comment icon" />
 
               <a href="#">{props.comment}</a>
             </div> */}
@@ -39,21 +39,21 @@ const Card = (props) => {
         <div className="modal">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modal-content">
-            <div class="flex justify-between px-4 mx-auto max-w-screen-xl ">
-              <article class="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
-                <header class="mb-4 lg:mb-6 not-format">
-                  <h1 class="title">
+            <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
+              <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
+                <header className="mb-4 lg:mb-6 not-format">
+                  <h1 className="title">
                     {props.title}
                   </h1>
                 </header>
-                <p class="lead">{props.intro_paragraph}</p>
+                <p className="lead">{props.intro_paragraph}</p>
                 
-                <img src={props.image} alt={props.title} width="70%"  className="modal-img " />
+                <img loading="lazy" decoding="async" src={props.image} alt={props.title} width="70%"  className="modal-img " />
                 {HTMLReactParser(props.content)}
               </article>
             </div>
             {/* <div className="blog-image">
-            <img src={props.image} className="w-50" alt="blog banner" />
+            <img loading="lazy" decoding="async" src={props.image} className="w-50" alt="blog banner" />
 
             </div>
 

@@ -1,9 +1,9 @@
-import blog_1 from "../../assets/images/blog-1.jpg";
-import blog_2 from "../../assets/images/blog-2.jpg";
-import blog_3 from "../../assets/images/blog-3.jpg";
-import blog_4 from "../../assets/images/blog-4.jpg";
-import blog_5 from "../../assets/images/blog-5.jpg";
-import blog_6 from "../../assets/images/blog-6.jpg";
+import blog_1 from "../../assets/images/blog-1.webp";
+import blog_2 from "../../assets/images/blog-2.webp";
+import blog_3 from "../../assets/images/blog-3.webp";
+import blog_4 from "../../assets/images/blog-4.webp";
+import blog_5 from "../../assets/images/blog-5.webp";
+import blog_6 from "../../assets/images/blog-6.webp";
 
 import calendar from "../../assets/images/calendar.png";
 

@@ -20,155 +20,155 @@ import course_category_icon_6_w from "../../assets/images/course-category-icon-6
 
 const index = () => {
   return (
-    <section class="category">
-      <p class="section-subtitle">
+    <section className="category">
+      <p className="section-subtitle">
         your child deserves a chance at a better future.
       </p>
 
-      <h2 class="section-title">Why Select Us?</h2>
+      <h2 className="section-title">Why Select Us?</h2>
 
-      <ul class="course-item-group">
-        <li class="course-category-item">
-          <div class="wrapper">
-            <img
+      <ul className="course-item-group">
+        <li className="course-category-item">
+          <div className="wrapper">
+            <img loading="lazy" decoding="async"
               src={course_category_icon_1}
               alt="category icon"
-              class="category-icon default"
+              className="category-icon default"
             />
 
-            <img
+            <img loading="lazy" decoding="async"
               src={course_category_icon_1_w}
               alt="category icon white"
-              class="category-icon hover"
+              className="category-icon hover"
             />
           </div>
 
-          <div class="course-category-content">
-            <h3 class="category-title">
+          <div className="course-category-content">
+            <h3 className="category-title">
               <a href="#nothing">Focused and Well planned course curriculum</a>
             </h3>
 
-            {/* <p class="category-subtitle">India’s best brain pool Subject wise unit expert faculty Combination of eminent professors.</p> */}
+            {/* <p className="category-subtitle">India’s best brain pool Subject wise unit expert faculty Combination of eminent professors.</p> */}
           </div>
         </li>
 
-        <li class="course-category-item">
-          <div class="wrapper">
-            <img
+        <li className="course-category-item">
+          <div className="wrapper">
+            <img loading="lazy" decoding="async"
               src={course_category_icon_2}
               alt="category icon"
-              class="category-icon default"
+              className="category-icon default"
             />
 
-            <img
+            <img loading="lazy" decoding="async"
               src={course_category_icon_2_w}
               alt="category icon white"
-              class="category-icon hover"
+              className="category-icon hover"
             />
           </div>
 
-          <div class="course-category-content">
-            <h3 class="category-title">
+          <div className="course-category-content">
+            <h3 className="category-title">
               <a href="#nothing">Best Infrastructure & Support</a>
             </h3>
 
-            {/* <p class="category-subtitle">Improve your business</p> */}
+            {/* <p className="category-subtitle">Improve your business</p> */}
           </div>
         </li>
 
-        <li class="course-category-item">
-          <div class="wrapper">
-            <img
+        <li className="course-category-item">
+          <div className="wrapper">
+            <img loading="lazy" decoding="async"
               src={course_category_icon_3}
               alt="category icon"
-              class="category-icon default"
+              className="category-icon default"
             />
 
-            <img
+            <img loading="lazy" decoding="async"
               src={course_category_icon_3_w}
               alt="category icon white"
-              class="category-icon hover"
+              className="category-icon hover"
             />
           </div>
 
-          <div class="course-category-content">
-            <h3 class="category-title">
+          <div className="course-category-content">
+            <h3 className="category-title">
               <a href="#nothing">Comprehensive Study Material</a>
             </h3>
 
-            {/* <p class="category-subtitle">Fun & Challenging</p> */}
+            {/* <p className="category-subtitle">Fun & Challenging</p> */}
           </div>
         </li>
 
-        <li class="course-category-item">
-          <div class="wrapper">
-            <img
+        <li className="course-category-item">
+          <div className="wrapper">
+            <img loading="lazy" decoding="async"
               src={course_category_icon_4}
               alt="category icon"
-              class="category-icon default"
+              className="category-icon default"
             />
 
-            <img
+            <img loading="lazy" decoding="async"
               src={course_category_icon_4_w}
               alt="category icon white"
-              class="category-icon hover"
+              className="category-icon hover"
             />
           </div>
 
-          <div class="course-category-content">
-            <h3 class="category-title">
+          <div className="course-category-content">
+            <h3 className="category-title">
               <a href="#nothing">Best Pool of Faculty</a>
             </h3>
 
-            {/* <p class="category-subtitle">New Skills, New You</p> */}
+            {/* <p className="category-subtitle">New Skills, New You</p> */}
           </div>
         </li>
 
-        <li class="course-category-item">
-          <div class="wrapper">
-            <img
+        <li className="course-category-item">
+          <div className="wrapper">
+            <img loading="lazy" decoding="async"
               src={course_category_icon_5}
               alt="category icon"
-              class="category-icon default"
+              className="category-icon default"
             />
 
-            <img
+            <img loading="lazy" decoding="async"
               src={course_category_icon_5_w}
               alt="category icon white"
-              class="category-icon hover"
+              className="category-icon hover"
             />
           </div>
 
-          <div class="course-category-content">
-            <h3 class="category-title">
+          <div className="course-category-content">
+            <h3 className="category-title">
               <a href="#nothing">Comprehensive Coverage</a>
             </h3>
 
-            {/* <p class="category-subtitle">Improve your business</p> */}
+            {/* <p className="category-subtitle">Improve your business</p> */}
           </div>
         </li>
 
-        <li class="course-category-item">
-          <div class="wrapper">
-            <img
+        <li className="course-category-item">
+          <div className="wrapper">
+            <img loading="lazy" decoding="async"
               src={course_category_icon_6}
               alt="category icon"
-              class="category-icon default"
+              className="category-icon default"
             />
 
-            <img
+            <img loading="lazy" decoding="async"
               src={course_category_icon_6_w}
               alt="category icon white"
-              class="category-icon hover"
+              className="category-icon hover"
             />
           </div>
 
-          <div class="course-category-content">
-            <h3 class="category-title">
+          <div className="course-category-content">
+            <h3 className="category-title">
               <a href="#nothing">Dedication and Commitment</a>
             </h3>
 
-            {/* <p class="category-subtitle">Fun & Challenging</p> */}
+            {/* <p className="category-subtitle">Fun & Challenging</p> */}
           </div>
         </li>
       </ul>

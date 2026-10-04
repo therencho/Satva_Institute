@@ -1,41 +1,39 @@
 import React from "react";
-import course_1 from "../../assets/images/course-1.jpg";
-import course_2 from "../../assets/images/course-2.jpg";
-import course_3 from "../../assets/images/course-3.jpg";
-import course_4 from "../../assets/images/course-4.jpg";
-import course_5 from "../../assets/images/course-5.jpg";
-import course_6 from "../../assets/images/course-6.jpg";
+import course_1 from "../../assets/images/course-1.webp";
+import course_2 from "../../assets/images/course-2.webp";
+import course_3 from "../../assets/images/course-3.webp";
+import course_4 from "../../assets/images/course-4.webp";
+import course_5 from "../../assets/images/course-5.webp";
+import course_6 from "../../assets/images/course-6.webp";
 
-import course_instructor_img from "../../assets/images/course-instructor-img.jpg";
-import student_icon from "../../assets/images/student-icon.png";
 
 const index = () => {
   return (
-    <section class="course" id="course">
-      <p class="section-subtitle">What We Offer</p>
+    <section className="course" id="course">
+      <p className="section-subtitle">What We Offer</p>
 
-      <h2 class="section-title">
+      <h2 className="section-title">
         Discover high-quality modules designed for success.
       </h2>
 
-      <div class="course-grid">
-        <div class="course-card">
-          <div class="course-banner">
-            <img src={course_1} alt="course banner" />
+      <div className="course-grid">
+        <div className="course-card">
+          <div className="course-banner">
+            <img loading="lazy" decoding="async" src={course_1} alt="course banner" />
 
-            <div class="course-tag-box">
-              <span class="badge-tag orange">Basic</span>
-              <span class="badge-tag blue">Fun Learning</span>
+            <div className="course-tag-box">
+              <span className="badge-tag orange">Basic</span>
+              <span className="badge-tag blue">Fun Learning</span>
             </div>
           </div>
 
-          <div class="course-content">
-            <h3 class="card-title">
+          <div className="course-content">
+            <h3 className="card-title">
               <a href="#course">Pre-Foundation</a>
             </h3>
 
-            <div class="wrapper border-bottom">
-              <p class="author-name">
+            <div className="wrapper border-bottom">
+              <p className="author-name">
                 Our modules offer a comprehensive understanding of the material,
                 with experienced instructors who make learning fun and engaging.
                 We foster critical thinking and problem-solving skills,
@@ -44,31 +42,31 @@ const index = () => {
               </p>
             </div>
 
-            <div class="wrapper">
-              <div class="course-price">
+            <div className="wrapper">
+              <div className="course-price">
                 For Grade: 1<sup>st</sup> to 5<sup>th</sup>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="course-card">
-          <div class="course-banner">
-            <img src={course_2} alt="course banner" />
+        <div className="course-card">
+          <div className="course-banner">
+            <img loading="lazy" decoding="async" src={course_2} alt="course banner" />
 
-            <div class="course-tag-box">
-              <span class="badge-tag orange">Learn with Passion</span>
-              <span class="badge-tag blue">Academic Boost</span>
+            <div className="course-tag-box">
+              <span className="badge-tag orange">Learn with Passion</span>
+              <span className="badge-tag blue">Academic Boost</span>
             </div>
           </div>
 
-          <div class="course-content">
-            <h3 class="card-title">
+          <div className="course-content">
+            <h3 className="card-title">
               <a href="#course">Foundation</a>
             </h3>
 
-            <div class="wrapper border-bottom">
-              <p class="author-name">
+            <div className="wrapper border-bottom">
+              <p className="author-name">
                 Our modules are designed to enhance learning, boost confidence,
                 and inspire academic excellence. Our engaging curriculum and
                 expert instructors encourage creativity, collaboration, and
@@ -77,65 +75,65 @@ const index = () => {
               </p>
             </div>
 
-            <div class="wrapper">
-              <div class="course-price">
+            <div className="wrapper">
+              <div className="course-price">
                 For Grade: 6<sup>th</sup> to 10<sup>th</sup>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="course-card">
-          <div class="course-banner">
-            <img src={course_3} alt="course banner" />
+        <div className="course-card">
+          <div className="course-banner">
+            <img loading="lazy" decoding="async" src={course_3} alt="course banner" />
 
-            <div class="course-tag-box">
-              <span class="badge-tag orange">Financial Literacy</span>
-              <span class="badge-tag blue">Global Trade </span>
+            <div className="course-tag-box">
+              <span className="badge-tag orange">Financial Literacy</span>
+              <span className="badge-tag blue">Global Trade </span>
             </div>
           </div>
 
-          <div class="course-content">
-            <h3 class="card-title">
+          <div className="course-content">
+            <h3 className="card-title">
               <a href="#course">Commerce</a>
             </h3>
 
-            <div class="wrapper border-bottom">
-              <p class="author-name">
+            <div className="wrapper border-bottom">
+              <p className="author-name">
                 Our modules offer a comprehensive education in the fields of
                 finance, accounting, and management, preparing students for
-                success in the business world. an engaging curriculum that
-                emphasizes practical skills, provide students with the knowledge
+                success in the business world. With an engaging curriculum that
+                emphasizes practical skills, we provide students with the knowledge
                 and confidence they need to achieve their academic and
                 professional goals.
               </p>
             </div>
 
-            <div class="wrapper">
-              <div class="course-price">
+            <div className="wrapper">
+              <div className="course-price">
                 For Grade: 11<sup>th</sup> And 12<sup>th</sup>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="course-card">
-          <div class="course-banner">
-            <img src={course_4} alt="course banner" />
+        <div className="course-card">
+          <div className="course-banner">
+            <img loading="lazy" decoding="async" src={course_4} alt="course banner" />
 
-            <div class="course-tag-box">
-              <span class="badge-tag orange">STEM Education</span>
-              <span class="badge-tag blue">Science Lab</span>
+            <div className="course-tag-box">
+              <span className="badge-tag orange">STEM Education</span>
+              <span className="badge-tag blue">Science Lab</span>
             </div>
           </div>
 
-          <div class="course-content">
-            <h3 class="card-title">
+          <div className="course-content">
+            <h3 className="card-title">
               <a href="#course">PCM</a>
             </h3>
 
-            <div class="wrapper border-bottom">
-              <p class="author-name">
+            <div className="wrapper border-bottom">
+              <p className="author-name">
                 Our modules provide hands-on learning that prepares students for
                 success in a fast-paced world. Expert instructors and practical
                 curriculum develop critical thinking and problem-solving skills.
@@ -144,31 +142,31 @@ const index = () => {
               </p>
             </div>
 
-            <div class="wrapper">
-              <div class="course-price">
+            <div className="wrapper">
+              <div className="course-price">
                 For Grade: 11<sup>th</sup> And 12<sup>th</sup> A-Group
               </div>
             </div>
           </div>
         </div>
 
-        <div class="course-card">
-          <div class="course-banner">
-            <img src={course_5} alt="course banner" />
+        <div className="course-card">
+          <div className="course-banner">
+            <img loading="lazy" decoding="async" src={course_5} alt="course banner" />
 
-            <div class="course-tag-box">
-              <span class="badge-tag orange">Health Sciences</span>
-              <span class="badge-tag blue">Medical Basics</span>
+            <div className="course-tag-box">
+              <span className="badge-tag orange">Health Sciences</span>
+              <span className="badge-tag blue">Medical Basics</span>
             </div>
           </div>
 
-          <div class="course-content">
-            <h3 class="card-title">
+          <div className="course-content">
+            <h3 className="card-title">
               <a href="#course">PCB</a>
             </h3>
 
-            <div class="wrapper border-bottom">
-              <p class="author-name">
+            <div className="wrapper border-bottom">
+              <p className="author-name">
                 Our modules provide an exceptional education that equips
                 students with practical skills needed to thrive in the dynamic
                 and challenging field of healthcare. With a focus on medical
@@ -178,31 +176,31 @@ const index = () => {
               </p>
             </div>
 
-            <div class="wrapper">
-              <div class="course-price">
+            <div className="wrapper">
+              <div className="course-price">
                 For Grade: 11<sup>th</sup> And 12<sup>th</sup> B-Group
               </div>
             </div>
           </div>
         </div>
 
-        <div class="course-card">
-          <div class="course-banner">
-            <img src={course_6} alt="course banner" />
+        <div className="course-card">
+          <div className="course-banner">
+            <img loading="lazy" decoding="async" src={course_6} alt="course banner" />
 
-            <div class="course-tag-box">
-              <span class="badge-tag orange">Intensive Training</span>
-              <span class="badge-tag blue">Quick Learning</span>
+            <div className="course-tag-box">
+              <span className="badge-tag orange">Intensive Training</span>
+              <span className="badge-tag blue">Quick Learning</span>
             </div>
           </div>
 
-          <div class="course-content">
-            <h3 class="card-title">
+          <div className="course-content">
+            <h3 className="card-title">
               <a href="#course">Crash Course</a>
             </h3>
 
-            <div class="wrapper border-bottom">
-              <p class="author-name">
+            <div className="wrapper border-bottom">
+              <p className="author-name">
                 Maximize your learning potential with our crash courses. Led by
                 experts and customized to your goals, our intensive courses
                 provide the knowledge and skills you need to succeed. With our
@@ -211,8 +209,8 @@ const index = () => {
               </p>
             </div>
 
-            <div class="wrapper">
-              <div class="course-price">For Every One</div>
+            <div className="wrapper">
+              <div className="course-price">For Everyone</div>
             </div>
           </div>
         </div>

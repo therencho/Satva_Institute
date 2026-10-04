@@ -1,8 +1,8 @@
 import React from "react";
-import  instructor_1  from "../../assets/images/instructor-1.jpg";
-import  instructor_2  from "../../assets/images/instructor-2.jpg";
-import  instructor_3  from "../../assets/images/instructor-3.jpg";
-import  instructor_4  from "../../assets/images/instructor-4.jpg";
+import  instructor_1  from "../../assets/images/instructor-1.webp";
+import  instructor_2  from "../../assets/images/instructor-2.webp";
+import  instructor_3  from "../../assets/images/instructor-3.webp";
+import  instructor_4  from "../../assets/images/instructor-4.webp";
 
 const index = () => {
   return (
@@ -14,9 +14,9 @@ const index = () => {
       <div className="instructor-grid">
         <div className="instructor-card">
           <div className="instructor-img-box">
-            <img
+            <img loading="lazy" decoding="async"
               src={instructor_1}
-              alt="instructor Biren"
+              alt="instructor Mitul"
             />
 
             <div className="social-link">
@@ -41,7 +41,7 @@ const index = () => {
 
         <div className="instructor-card">
           <div className="instructor-img-box">
-            <img
+            <img loading="lazy" decoding="async"
               src={instructor_2}
               alt="instructor Biren"
             />
@@ -68,7 +68,7 @@ const index = () => {
 
         <div className="instructor-card">
           <div className="instructor-img-box">
-            <img
+            <img loading="lazy" decoding="async"
               src={instructor_3}
               alt="instructor Helly"
             />
@@ -95,9 +95,9 @@ const index = () => {
 
         <div className="instructor-card">
           <div className="instructor-img-box">
-            <img
+            <img loading="lazy" decoding="async"
               src={instructor_4}
-              alt="instructor ranchhod"
+              alt="instructor Rencho"
             />
 
             <div className="social-link">

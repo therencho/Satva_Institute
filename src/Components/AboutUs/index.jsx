@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import about_img_bg from "../../assets/svg/bg-image.png";
-import about_img from "../../assets/images/about-img.png";
+import about_img_bg from "../../assets/svg/bg-image.webp";
+import about_img from "../../assets/images/about-img.webp";
 import banner_aliment_icon_1 from "../../assets/svg/banner-aliment-icon-1.svg";
 import banner_aliment_icon_3 from "../../assets/svg/banner-aliment-icon-2.svg";
 import Card from "./Card";
-// import data from "./data";
 
 const index = () => {
   const [modal, setModal] = useState(false);
@@ -41,41 +40,41 @@ const index = () => {
   `;
   return (
     <>
-      <section class="about" id="about">
-        <div class="about-left">
-          <div class="img-box">
-            <img src={about_img_bg} alt="about bg" class="about-bg" />
+      <section className="about" id="about">
+        <div className="about-left">
+          <div className="img-box">
+            <img loading="lazy" decoding="async" src={about_img_bg} alt="about bg" className="about-bg" />
 
-            <img src={about_img} alt="about person" class="about-img" />
+            <img loading="lazy" decoding="async" src={about_img} alt="about person" className="about-img" />
 
-            <img
+            <img loading="lazy" decoding="async"
               src={banner_aliment_icon_1}
               alt=""
-              class="icon-1 smooth-zigzag-anim-1"
+              className="icon-1 smooth-zigzag-anim-1"
               width="250"
             />
-            <img
+            <img loading="lazy" decoding="async"
               src={banner_aliment_icon_3}
               alt=""
-              class="icon-2 smooth-zigzag-anim-3"
+              className="icon-2 smooth-zigzag-anim-3"
               width="240"
             />
           </div>
         </div>
 
-        <div class="about-right">
-          <p class="section-subtitle">About Us</p>
+        <div className="about-right">
+          <p className="section-subtitle">About Us</p>
 
-          <h2 class="section-title">Unlock your academic potential with us.</h2>
+          <h2 className="section-title">Unlock your academic potential with us.</h2>
 
-          <p class="section-text">
+          <p className="section-text">
             Satva Institute is a structured academy complete in all aspects
             which provides quality guidance for
-            6th-7th-8th-9th-10th-11th-12thstandards in CBSE/GSEB/ICSE Board
+            6th to 12th standards in CBSE/GSEB/ICSE Board
             (English Medium+ગુજરાતી માધ્યમ)
           </p>
 
-          <ul class="about-ul">
+          <ul className="about-ul">
             <li>
               <ion-icon name="checkmark-circle"></ion-icon>
               <p>
@@ -88,7 +87,7 @@ const index = () => {
               <ion-icon name="checkmark-circle"></ion-icon>
               <p>
                 We believe every student has the potential to succeed, and we're
-                here to help you unlock it. one.
+                here to help you unlock it.
               </p>
             </li>
 
@@ -101,9 +100,9 @@ const index = () => {
             </li>
           </ul>
 
-          <button class="btn btn-primary" onClick={() => setModal(!modal)}>
-            <p class="btn-text">Know More</p>
-            <span class="square"></span>
+          <button className="btn btn-primary" onClick={() => setModal(!modal)}>
+            <p className="btn-text">Know More</p>
+            <span className="square"></span>
           </button>
         </div>
       </section>

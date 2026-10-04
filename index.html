@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.png" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/media_queries.css" />
@@ -23,24 +23,10 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
-    <title>Satva Institution</title>
+    <title>Satva Institute | Coaching Classes in Gandhinagar &amp; Ahmedabad</title>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-    <script>
-      let li = document.querySelectorAll(".faq-text li");
-      for (var i = 0; i < li.length; i++) {
-        li[i].addEventListener("click", (e)=>{
-          let clickedLi;
-          if(e.target.classList.contains("question-arrow")){
-            clickedLi = e.target.parentElement;
-          }else{
-            clickedLi = e.target.parentElement.parentElement;
-          }
-         clickedLi.classList.toggle("showAnswer");
-        });
-      }
-    </script>
   </body>
 </html>

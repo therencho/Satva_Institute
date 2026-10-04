@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 import Header from "./Layouts/index";
-import Home from "./Components/Home/Index";
+import Home from "./Components/Home/index";
 import CourseCategory from "./Components/CourseCategory/index";
 import AboutUs from "./Components/AboutUs/index";
 import Course from "./Components/Course/index";
